@@ -8,6 +8,7 @@ This rep contains 2 files.
 To use the saved model the following code can be used by you:
 
 model = torch.load('best_model_full.pth')  # To load the full model
+
 model.eval()                               # Don't forget to set the model to evaluation mode
 
 The Python Notebook also contains the model loaded in the end using this code for refrence. 
